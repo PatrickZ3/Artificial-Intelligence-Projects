@@ -1,0 +1,31 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your interaction below
+
+%Q1
+%?- canGo(chevrolet, south).
+%No (0.00s cpu)
+
+%Q2
+%?- canGo(toyota, south).
+%Yes (0.00s cpu, solution 1, maybe more)
+
+%Q3
+%?- canGo(chevrolet, east).
+%No (0.00s cpu)
+
+%Q4
+%?- canGo(nissan, east).
+%Yes (0.00s cpu, solution 1, maybe more)
+%No (0.33s cpu)
+
+%Q5
+%?- canGo(toyota, west).
+%No (0.00s cpu)
+

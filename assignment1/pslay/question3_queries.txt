@@ -1,0 +1,34 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your 5 queries below. Ensure that the line before each query describes the query in plain
+% English.For example, if you want to add the query "pred(X, constant).", it should appear as follows:
+%
+% % Retrieves the block that is on top of blockA
+% QUERY 2: on(X, blockA).
+%
+% where 2 is the number of the query. Omit the "%" on the QUERY line below.
+% Don't forget to end queries with a period.
+
+% Checks to see if the chevrolet (which is moving east) can turn south, given that it is facing a red light, and also given that there is a toyota that has a green light coming south.
+QUERY 1: canGo(chevrolet, south).
+
+% Checks to see if the toyota (which is facing south) can go straight through the intersection on a green light.
+QUERY 2: canGo(toyota, south).
+
+% Checks to see if the chevrolet (which is facing east) can go straight through the intersection on a red light.
+QUERY 3: canGo(chevrolet, east).
+
+% Checks to see if the toyota (which is facing south) can turn right (west) through the intersection on a green light.
+QUERY 4: canGo(toyota, west).
+
+% Checks to see if the toyota (which is facing south) can turn left (east) through the intersection on a green light, given that the nissan is headed north through the intersection.
+QUERY 5: canGo(toyota, west).
+
+%%%%% END
+% DO NOT PUT ANY ATOMIC PROPOSITIONS OR LINES BELOW

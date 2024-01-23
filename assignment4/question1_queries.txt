@@ -1,0 +1,51 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your queries below.For example, if you want to add the query "pred(X, constant).", 
+% it should appear as follows:
+% 
+% % Retrieves the block that is on top of blockA
+% QUERY 2: on(X, blockA).
+%
+% where 2 is the number of the query. Omit the "%" on the QUERY line below.
+% Don't forget to end queries with a period.
+%
+% Each query below is labelled with an English description of what should be queried for.
+
+% Is there a store that has laptops in stock?
+QUERY 1: product(Product, _, laptop, _, _), inStock(Product, Store, _).
+
+% Is there a store in Montreal that has a 3ft HDMI cable in stock?
+QUERY 2: inStock(hdmi_cable, Store, Stock), Stock > 0, location(Store, montreal).
+
+% What is the stock of the tablet called Galaxy Tab 10 in the Square One Computer Shack?
+QUERY 3: inStock(galaxy_tab_10, square_one_computer_shack, Stock).
+
+% Does any store in Missisauga have a laptop in stock that cannot be shipped to Toronto?
+QUERY 4: location(Store, mississauga), product(Product, _, laptop, _, _), inStock(Product, Store, _), not canShip(Product, toronto).
+
+% What is the cheapest monitor that can ship to Toronto?
+QUERY 5: product(Product1, _, monitor, Price1, _), canShip(Product1, toronto), not (product(Product2, _, monitor, Price2, _), canShip(Product2, toronto), Price1 > Price2).
+
+% What are the highly rated tablets that the Eaton Centre Computer Shack has in stock?
+QUERY 6: inStock(PN1, computer_shack, N1), N1 > 0, product(PN1, _, _, _, R1), R1 > 4.0.
+
+% Is there a laptop that can be bought at at least two different stores in Toronto? If there is, what is its price?
+QUERY 7: product(PN1, _, laptop, P1, _), inStock(PN1, SN1, S1), location(SN1, toronto), inStock(PN1, SN2, S2), not SN1 = SN2, location(SN2, toronto).
+
+% Is there a highly rated tablet that costs less than $600?
+QUERY 8: inStock(PN1, _, _), product(PN1, _, tablet, P1, R1), R1 > 4.0, P1 < 600.
+
+% What is the laptop that can both be shipped and is at the Square One Computer Shack?
+QUERY 9: product(PN1, _, laptop, _, _), inStock(PN1, square_one_computer_shack, _), canShip(PN1, mississauga).
+
+% What is the cheapest highly rated tablet that I can get shipped?
+QUERY 10: product(Product1, _, tablet, Price1, R1), R1 > 4.0, canShip(Product1, _), not (product(Product2, _, tablet, Price2, R2), R2 > 4.0, canShip(Product2, _), Price1 > Price2).
+
+%%%%% END
+% DO NOT PUT ANY ATOMIC PROPOSITIONS OR LINES BELOW

@@ -1,0 +1,110 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your interaction below
+
+% Interaction
+QUERY 1: what([a,laptop,in,stock,at,square_one_computer_shack], P).
+P = macbook_air
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 2: what([any,highly_rated,apple,laptop], P).
+P = macbook_air
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 3: what([an,expensive,tablet,in,stock,at,eaton_centre_computer_shack], P).
+P = ipad_air
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 4: what([the,rating,of,a,rocketfish,hdmi_cable], R).
+R = 1.0
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 5: what([the,stock,of,galaxy_tab_10,at,montreal_computer_shack], C).
+
+% Interaction
+QUERY 6: what([a,highly_rated,laptop,in,stock,at,a,store,in,montreal], P).
+P = macbook_air
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 7: what([the,cheapest,dell,monitor], P).
+P = dell_mon_1
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 8: what([a,laptop,that_can_ship_to,mississauga], P).
+P = macbook_pro
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 9: what([any,store,in,toronto,with,an,apple,laptop,in,stock], S).
+
+% Interaction
+QUERY 10: what([the,cheapest,hdmi_cord,at,a,store,in,toronto], P).
+P = hdmi_cable
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 11: what([a,smart_phone,in,stock,at,future_shop], S).
+S = s22_ultra
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 12: what([the,most_expensive,tablet], P).
+P = ipad_pro
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 13: what([any,medium_rated,samsung,tablet], P).
+P = galaxy_tab_s6_lite
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 14: what([a,lowly_rated,samsung,smart_phone], P).
+P = zflip3
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 15: what([any,ipad,that_can_ship_to,mississauga], P).
+P = ipad_air
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 16: 
+QUERY 16: what([the,best,apple,smart_phone], P).
+P = iphone14
+Yes (0.00s cpu, solution 1, maybe more)
+
+
+% Interaction
+QUERY 17: what([a,cheap,samsung,tablet], P).
+P = galaxy_tab_10
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 18: what([a,good,dell,monitor], P).
+P = dell_mon_2
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 19: what([a,decent,laptop,at,a,store,in,toronto, P).
+P = galaxy_book_2_pro_360
+Yes (0.00s cpu, solution 1, maybe more)
+
+
+% Interaction
+QUERY 20: what([the, price, of, an, apple, laptop], P).
+P = 1600
+Yes (0.00s cpu, solution 1, maybe more)
+
+

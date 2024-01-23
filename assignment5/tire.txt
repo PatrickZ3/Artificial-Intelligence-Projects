@@ -1,0 +1,5 @@
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+
+goal_state(0,S) :- wheel(W), on(W,Hub,S), not inflated(W,S), not isClosed(trunk,S).

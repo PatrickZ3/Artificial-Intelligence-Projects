@@ -1,0 +1,85 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your interaction below
+
+?- print_solution([Art_section, Dance_section, Math_section, Cps_section, Lunch_time1, Lunch_time2, Lunch_time3]).
+
+Results:
+Art_section = Art_section
+Dance_section = Dance_section
+Math_section = Math_section
+Cps_section = Cps_section
+Lunch_time1 = Lunch_time1
+Lunch_time2 = Lunch_time2
+Lunch_time3 = Lunch_time3
+
+Yes (0.00s cpu, solution 1, maybe more)
+
+Output:
+art section 1
+dance section 1
+math section 2
+compsci section 1
+lunch time on first day 12
+lunch time on second day 13
+lunch time on third day 12
+
+more...
+Results:
+Art_section = Art_section
+Dance_section = Dance_section
+Math_section = Math_section
+Cps_section = Cps_section
+Lunch_time1 = Lunch_time1
+Lunch_time2 = Lunch_time2
+Lunch_time3 = Lunch_time3
+Yes (0.30s cpu, solution 2, maybe more)
+
+Output:
+art section 1
+dance section 1
+math section 2
+compsci section 1
+lunch time on first day 13
+lunch time on second day 13
+lunch time on third day 12
+
+
+
+
+Time Calculation:
+?- Start is cputime, solve([Art_section, Dance_section, Math_section, Cps_section, Lunch_time1, Lunch_time2, Lunch_time3]), End is cputime, Time is End - Start.
+
+Start = 34.171
+Art_section = 1
+Dance_section = 1
+Math_section = 2
+Cps_section = 1
+Lunch_time1 = 12
+Lunch_time2 = 13
+Lunch_time3 = 12
+End = 34.171
+Time = 0.0
+Yes (0.00s cpu, solution 1, maybe more)
+
+more...
+Start = 34.171
+Art_section = 1
+Dance_section = 1
+Math_section = 2
+Cps_section = 1
+Lunch_time1 = 13
+Lunch_time2 = 13
+Lunch_time3 = 12
+End = 34.187
+Time = 0.015999999999998238
+Yes (0.02s cpu, solution 2, maybe more)
+
+more...
+No (0.03s cpu)

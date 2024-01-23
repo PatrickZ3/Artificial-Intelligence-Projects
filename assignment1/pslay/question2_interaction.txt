@@ -1,0 +1,28 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your interaction below
+%Q1:?- costAfterTax(bread, X).
+%X = 2
+%Yes (0.00s cpu)
+
+%Q2: ?- costAfterTax(ginger_ale, X).
+%X = 1.9774999999999998
+%Yes (0.00s cpu, solution 1, maybe more)
+
+%Q3: ?- costAfterTaxAndSale(bread, X).
+%X = 4
+%Yes (0.00s cpu)
+
+%Q4: ?- costAfterTaxAndSale(apple, X).
+%X = 6.0
+%Yes (0.00s cpu, solution 1, maybe more)
+
+%Q5: ?- totalCost(X).
+%X = 29.1025
+%Yes (0.00s cpu, solution 1, maybe more)

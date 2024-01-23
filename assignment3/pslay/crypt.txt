@@ -1,0 +1,89 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your interaction below
+
+%Cryp1
+?- Start is cputime, solve([A, C, H, I, O, R, S, T, W]), End is cputime, Time is End - Start.
+Start = 623.953
+A = 7
+C = 3
+H = 0
+I = 6
+O = 4
+R = 9
+S = 2
+T = 1
+W = 8
+End = 740.968
+Time = 117.01499999999999
+Yes (117.01s cpu, solution 1, maybe more)
+
+?- print_solution([A, C, H, I, O, R, S, T, W]).
+A = 7
+C = 3
+H = 0
+I = 6
+O = 4
+R = 9
+S = 2
+T = 1
+W = 8
+Yes (117.86s cpu, solution 1, maybe more)
+
+%Cryp1 Print from print_solution([A, C, H, I, O, R, S, T, W]).
+Solution:
+A has the value of 7
+C has the value of 3
+H has the value of 0
+I has the value of 6
+O has the value of 4
+R has the value of 9
+S has the value of 2
+T has the value of 1
+W has the value of 8
+
+%Cryp2
+?- Start is cputime, solve([A, C, H, I, O, R, S, T, W]), End is cputime, Time is End - Start.
+Start = 859.109
+A = 7
+C = 3
+H = 0
+I = 6
+O = 4
+R = 9
+S = 2
+T = 1
+W = 8
+End = 884.156
+Time = 25.046999999999912
+Yes (25.05s cpu, solution 1, maybe more)
+
+?- print_solution([A, C, H, I, O, R, S, T, W]).
+A = 7
+C = 3
+H = 0
+I = 6
+O = 4
+R = 9
+S = 2
+T = 1
+W = 8
+Yes (24.64s cpu, solution 1, maybe more)
+
+%Crp2 Print from print_solution([A, C, H, I, O, R, S, T, W]).
+Solution:
+A has the value of 7
+C has the value of 3
+H has the value of 0
+I has the value of 6
+O has the value of 4
+R has the value of 9
+S has the value of 2
+T has the value of 1
+W has the value of 8

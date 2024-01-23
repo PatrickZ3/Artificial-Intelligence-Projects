@@ -1,0 +1,61 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME:Patrick Santoso Lay
+%
+% Add your interaction below
+%Q1: ?- authorOf(chimamanda_ngozi_adichie, half_of_a_yellow_sun).
+%Yes (0.00s cpu)
+
+%Q2: ?- publishedBy(X, station_eleven).
+%X = knopf
+%Yes (0.00s cpu)
+
+%Q3: ?- authorOf(X, the_apprenticeship_of_duddy_kravitz), authorOf(X, barneys_version).
+%X = mordecai_richler
+%Yes (0.00s cpu)
+
+%Q4: ?- publicationYear(X, 2019), not X = random_house, not X = harper_collins.
+%X = barneys_version
+%Yes (0.00s cpu)
+
+%Q5: ?- authorOf(X, Y), authorOf(X, Z), not Y = Z, publishedBy(P1, Y), publishedBy(P2, Z), not P1 = P2.
+%X = mordecai_richler
+%Y = the_apprenticeship_of_duddy_kravitz
+%Z = barneys_version
+%P1 = knopf
+%P2 = not_knopf
+%Yes (0.00s cpu, solution 1, maybe more)
+
+%Q6: ?- authorOf(Author, a_wild_sheep_chase), authorOf(Author, Book2), not Book2 = a_wild_sheep_chase, publicationYear(a_wild_sheep_chase, Year1), publicationYear(Book2, %Year2), Year2 < Year1.
+%Author = sheep_guy
+%Book2 = a_boring_sheep_chase
+%Year1 = 2000
+%Year2 = 1999
+%Yes (0.00s cpu)
+
+%Q8
+%?- publicationYear(Book1, 2006), authorOf(Author1, Book1), publicationYear(Book2, 2007), authorOf(Author2, Book2), Author1 = Author2, publicationYear(Book3, 2008), authorOf(Author3, Book3), Author2 = Author3.
+%Book1 = first_book
+%Author1 = book_lady
+%Book2 = second_book
+%Author2 = book_lady
+%Book3 = third_book
+%Author3 = book_lady
+%Yes (0.00s cpu)
+
+%Q9
+%
+
+
+
+%Q10
+%?- findall(Y, (publicationYear(B, Y), publishedBy(macmillan_publishers, B)), Result), min(Result, Min).
+%Y = Y
+%B = B
+%Result = [1955, 1960, 1965, 1970, 1950]
+%Min = 1950
+%Yes (0.00s cpu)

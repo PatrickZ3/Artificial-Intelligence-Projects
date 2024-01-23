@@ -1,0 +1,80 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your test queries below. Ensure that the line before each query describes the query in plain
+% English.For example, if you want to add the query "pred(X, constant).", it should appear as follows:
+% 
+% % Retrieves the block that is on top of blockA
+% QUERY 2: on(X, blockA).
+%
+% where 2 is the number of the query. Omit the "%" on the QUERY line below.
+% Don't forget to end queries with a period.
+
+% Query description
+QUERY 1: what([a,laptop,in,stock,at,square_one_computer_shack], P).
+
+% Query description
+QUERY 2: what([any,highly_rated,apple,laptop], P).
+
+% Query description
+QUERY 3: what([an,expensive,tablet,in,stock,at,eaton_centre_computer_shack], P).
+
+% Query description
+QUERY 4: what([the,rating,of,a,rocketfish,hdmi_cable], R).
+
+% Query description
+QUERY 5: what([the,stock,of,galaxy_tab_10,at,montreal_computer_shack], C).
+
+% Query description
+QUERY 6: what([a,highly_rated,laptop,in,stock,at,a,store,in,montreal], P).
+
+% Query description
+QUERY 7: what([the,cheapest,dell,monitor], P).
+
+% Query description
+QUERY 8: what([a,laptop,that_can_ship_to,mississauga], P).
+
+% Query description
+QUERY 9: what([any,store,in,toronto,with,an,apple,laptop,in,stock], S).
+
+% Query description
+QUERY 10: what([the,cheapest,hdmi_cord,at,a,store,in,toronto], P).
+
+% Query description
+QUERY 11: what([a,smart_phone,in,stock,at,future_shop], S).
+
+% Query description
+QUERY 12: what([the,most_expensive,tablet], P).
+
+% Query description
+QUERY 13: what([any,medium_rated,samsung,tablet], P).
+
+% Query description
+QUERY 14: what([a,lowly_rated,samsung,smart_phone], P).
+
+% Query description
+QUERY 15: what([any,ipad,that_can_ship_to,mississauga], P).
+
+% Query description
+QUERY 16: what([the,best,apple,smart_phone], P).
+
+% Query description
+QUERY 17: what([a,cheap,samsung,tablet], P).
+
+% Query description
+QUERY 18: what([a,good,dell,monitor], P).
+
+% Query description
+QUERY 19: what([a,decent,laptop,at,a,store,in,toronto, P).
+
+% Query description
+QUERY 20: what([the, price, of, an, apple, laptop], P).
+
+
+%%%%% END
+% DO NOT PUT ANY ATOMIC PROPOSITIONS OR LINES BELOW

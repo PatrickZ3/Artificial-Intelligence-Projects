@@ -1,0 +1,74 @@
+% Enter the names of your group members below.
+% If you only have 2 group members, leave the last space blank
+%
+%%%%%
+%%%%% NAME: Jason Quantrill
+%%%%% NAME: Laura Jamikeshova
+%%%%% NAME: Patrick Santoso Lay
+%
+% Add your interaction below
+
+% Interaction
+QUERY 1: product(Product, _, laptop, _, _), inStock(Product, Store, _).
+Product = macbook_air
+Store = eaton_centre_computer_shack
+
+% Interaction
+QUERY 2: inStock(hdmi_cable, Store, Stock), Stock > 0, location(Store, montreal).
+Store = future_shop
+Stock = 10
+
+% Interaction
+QUERY 3: inStock(galaxy_tab_10, square_one_computer_shack, Stock).
+Stock = 10
+
+% Interaction
+QUERY 4: location(Store, mississauga), product(Product, _, laptop, _, _), inStock(Product, Store, _), not canShip(Product, toronto).
+Store = square_one_computer_shack
+Product = galaxy_book_2_pro_360
+
+% Interaction
+QUERY 5: product(Product1, _, monitor, Price1, _), canShip(Product1, toronto), not (product(Product2, _, monitor, Price2, _), canShip(Product2, toronto), Price1 > Price2).
+Product1 = dell_mon_1
+Price1 = 400
+Product2 = Product2
+Price2 = Price2
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 6: inStock(PN1, computer_shack, N1), N1 > 0, product(PN1, _, _, _, R1), R1 > 4.0.
+PN1 = macbook_pro
+N1 = 15
+R1 = 4.5
+
+% Interaction
+QUERY 7: product(PN1, _, laptop, P1, _), inStock(PN1, SN1, S1), location(SN1, toronto), inStock(PN1, SN2, S2), not SN1 = SN2, location(SN2, toronto).
+PN1 = macbook_air
+P1 = 1600
+SN1 = eaton_centre_computer_shack
+S1 = 10
+SN2 = future_shop
+S2 = 30
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 8: inStock(PN1, _, _), product(PN1, _, tablet, P1, R1), R1 > 4.0, P1 < 600.
+PN1 = galaxy_tab_11
+P1 = 200
+R1 = 4.5
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 9: product(PN1, _, laptop, _, _), inStock(PN1, square_one_computer_shack, _), canShip(PN1, mississauga).
+PN1 = galaxy_book_2_pro_360
+Yes (0.00s cpu, solution 1, maybe more)
+
+% Interaction
+QUERY 10: product(Product1, _, tablet, Price1, R1), R1 > 4.0, canShip(Product1, _), not (product(Product2, _, tablet, Price2, R2), R2 > 4.0, canShip(Product2, _), Price1 > Price2).
+Product1 = ipad_air
+Price1 = 1300
+R1 = 4.5
+Product2 = Product2
+Price2 = Price2
+R2 = R2
+Yes (0.00s cpu, solution 1, maybe more)
